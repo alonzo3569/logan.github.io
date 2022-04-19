@@ -1,0 +1,67 @@
+body{
+	/*background-image:url('https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F445078%2Factivisions-overwatch-logo.jpg&w=700&op=resize');*/
+	background-image:url('https://hdwallsource.com/img/2018/6/overwatch-icon-wallpaper-66513-68781-hd-wallpapers.jpg');
+	background-color:white;
+	background-size: cover;
+   	background-position: center center;
+   	background-repeat: no-repeat;
+	background-attachment:fixed;
+	text-align:center;
+}
+
+.box{
+    /*width:1680px;*/
+	border:1px solid black;
+    margin:0 auto;
+}
+.box .header{
+    height:140px;
+    /*border:1px solid #f00;*/
+    line-height:120px;
+    font-family:'Alfa Slab One';
+    font-size:45pt;
+    color:white;
+
+    opacity: 0.8;
+}
+.box .main{
+    width:480px;
+    height:360px;
+    /*border:1px solid #0f0;*/
+    margin:auto;
+    opacity: 1;
+    color:white;
+}
+.box .footer{
+    height:100px;
+    /*border:1px solid #00f;*/
+    text-align:center;
+    color:white;
+}
+
+p{
+	text-align:center;
+	font-family:'Oswald';
+	font-size:15pt;
+	color:white;
+}
+
+#button{
+	color:white;
+	background-color:orange;
+	font-family:'Oswald';
+	width:220px;
+	height:40px;
+	font-size:25px;
+	border-radius: 5px;
+	border: none;
+	font-weight:800;
+}
+
+input{
+	border-radius:5px;
+	width:220px;
+	height:30px;
+	border:none;
+	text-align:center;
+}

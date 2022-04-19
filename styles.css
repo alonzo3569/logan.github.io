@@ -1,0 +1,68 @@
+body{
+	background-image:url('https://images.alphacoders.com/476/476268.jpg');
+	background-size: cover;
+   	background-position: center center;
+   	background-repeat: no-repeat;
+  	background-attachment:fixed;
+	text-align:center;
+}
+.box{
+    width:1680px;
+	/*border:1px solid black;*/
+    margin:0 auto;
+}
+.box .header{
+    height:140px;
+    /*border:1px solid #f00;*/
+    line-height:120px;
+    font-family:'Alfa Slab One';
+    font-size:45pt;
+    color:white;
+}
+.box .main{
+    width:480px;
+    height:540px;
+    /*border:1px solid #0f0;*/
+    float:left;
+    margin-left:60px;
+    opacity: 1;
+    color:white;
+}
+.box .footer{
+    clear:left;
+    height:100px;
+    /*border:1px solid #00f;*/
+    text-align:center;
+    color:white;
+}
+div{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    font-family:'Anton';
+    font-size:30pt;
+}
+
+p{
+    text-align:center;
+    font-family:'Oswald';
+    font-size:20pt;
+}
+
+hr
+{
+    border:0;
+    height:3px;
+    width:70%;
+    background:#333;
+    background-image:linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#block-text{
+    text-align:left;
+    font-family:'Oswald';
+    font-size:20pt;
+}
+

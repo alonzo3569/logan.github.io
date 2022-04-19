@@ -1,0 +1,10 @@
+body{
+	/*background-image:url('http://eskipaper.com/images/shark-underwater-1.jpg');*/
+	background-image:url('http://avante.biz/wp-content/uploads/The-meg-2018-hd-wallpaper/The-meg-2018-hd-wallpaper10.jpg');
+	background-color:white;
+	background-size: cover;
+   	background-position: center center;
+   	background-repeat: no-repeat;
+	background-attachment:fixed;
+	text-align:center;
+}

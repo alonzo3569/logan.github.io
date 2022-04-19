@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Anton|Lexend+Deca|Oswald&display=swap" rel="stylesheet"> <!-- google fonts -->
+        <link href="login.css" rel="stylesheet">
+        <title>Login</title>
+
+        <script>
+
+            function redirect()
+            {
+                location.replace("https://playoverwatch.com/");
+            }
+
+            function greet()
+            {
+                alert('Hello!\n' +
+                      'Account: '+ document.querySelector('#username').value + '\n' +
+                      'Password:'+ document.querySelector('#passwd').value   + '\n' +
+                      'Login Successfully!');
+            }
+        </script>
+
+    </head>
+    <body>
+        <div class = "box">
+            <br><br><br><br><br><br><br>
+            <!-- header block -->
+            <div class = "header">
+                <img src="https://fontmeme.com/permalink/190905/c62747286916f5e9fd30c3141e139b21.png"
+                     alt="overwatch-video-game-font" border="0" wodth = "752px" height= "70px">
+            </div>
+
+            <!-- icon block -->
+            <div class = "main"></div>
+
+            <!-- form block -->
+            <form>
+                <div style = "height:150px;">
+                    <p>ACCOUNT NAME</p>
+                    <input name = "user" type = "text" autocomplete="off" autofocus placeholder="ACCOUNT" id = "username" /> <br><br>
+                    <p>PASSWORD</p>
+                    <input name = "pwd"  type = "password" placeholder="PASSWORD" id = passwd /> <br><br><br>
+                    <input type="button" value="LOGIN" id = "button"  onclick = "greet();redirect();">
+                </div>
+            </form>
+
+            <!-- footer block -->
+            <div class = "footer"></div>
+        </div>
+
+    </body>
+    </html>
